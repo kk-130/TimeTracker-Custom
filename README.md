@@ -6,7 +6,7 @@ The interface uses English. Task descriptions, custom categories and the window 
 
 ## 1. Starting and quitting
 
-- Double-click `TimeTracker_Custom.exe` to run the app. No Python installation or VBS script is required. `启动最新版.bat` also launches the EXE in the same folder.
+- Double-click `TimeTracker_Custom.exe` to run the app. No Python installation or VBS script is required.
 - Only one instance can run at a time. If double-clicking does not open a new window, check the Windows system tray and click the app icon or choose **Show**.
 - Closing the window normally hides it to the tray. To exit completely, choose **Quit** from the tray menu.
 - Before quitting or switching versions, use **Record** to save any active timer session.
@@ -313,7 +313,6 @@ The generated EXE is normally placed in `dist`. Save active timing and quit the 
 | `requirements.txt` | 源码运行所需依赖 |
 | `icon.png` | 源码及打包使用的图标 |
 | `TimeTracker_Custom.spec` | PyInstaller 打包配置，按配置文件所在位置寻找源码和图标 |
-| `启动最新版.bat` | 启动同文件夹中的 EXE 的便捷入口 |
 | `Time Tracker Custom.vbs` | 之前的备用脚本；当前版本无需使用，其中的旧路径也不会随文件夹移动自动更新 |
 | `__pycache__` | Python 缓存，不是独立 EXE 的运行依赖 |
 
