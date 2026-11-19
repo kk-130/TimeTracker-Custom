@@ -145,7 +145,6 @@ An active timer session that has not been saved has no crash recovery. Use Recor
 | `requirements.txt` | Dependencies for running the source |
 | `icon.png` | Icon used by the source and build |
 | `TimeTracker_Custom.spec` | PyInstaller configuration; finds the source and icon relative to the configuration file |
-| `启动最新版.bat` | Convenient launcher for the EXE in the same folder |
 | `Time Tracker Custom.vbs` | Previous fallback script; not required by the current version, and its old path does not automatically follow a folder move |
 | `__pycache__` | Python cache; not required by the standalone EXE |
 
